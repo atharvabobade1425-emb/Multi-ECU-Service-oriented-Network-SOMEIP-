@@ -1,0 +1,10 @@
+23:28:16  t=   0.2s  Wireshark capture started on vbus/br0
+23:28:16  t=   0.2s  TASK 17.1  start consumers first: Instrument Cluster ECU + Central Display ECU
+23:28:24  t=   8.2s  TASK 17.2  start Vehicle ECU (VehicleSpeedService 0x1234)
+23:28:36  t=  20.2s  TASK 17.3  start Climate ECU (ClimateService 0x2234) - Central Display runs Task 20 tests
+23:29:10  t=  54.2s  TASK 21.1  STOP Climate ECU (Ctrl+C / SIGTERM -> StopOffer)
+23:29:28  t=  72.2s  TASK 21.1  RESTART Climate ECU
+23:29:48  t=  92.2s  TASK 21.2  STOP Vehicle ECU - hard failure: application and its daemon killed (no StopOffer)
+23:30:06  t= 110.3s  TASK 21.2  RESTART Vehicle ECU (daemon + application)
+23:30:36  t= 140.3s  END  stop all ECUs gracefully
+23:30:40  t= 144.3s  capture saved: captures/assignment2-multi-ecu.pcapng (1027 packets)

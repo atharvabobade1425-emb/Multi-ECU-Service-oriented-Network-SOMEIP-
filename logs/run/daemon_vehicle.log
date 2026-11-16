@@ -1,0 +1,755 @@
+2026-11-16,23:28:24.813 someipyd [INFO]: Starting SOME/IP daemon with config:
+Socket path: /tmp/someipyd_ecu_vehicle.sock
+SD address: 224.224.224.245
+SD port: 30490
+Interface: 192.168.50.10
+Loglevel: 20
+Log path: Console
+Use tcp: False
+Tcp port: None
+Tcp host: 127.0.0.1
+
+2026-11-16,23:28:24.813 someipyd [INFO]: Unix domain socket server started at /tmp/someipyd_ecu_vehicle.sock
+2026-11-16,23:28:25.006 someipyd [INFO]: New client connected: 140029569233120
+2026-11-16,23:28:25.006 someipyd [INFO]: New client connected: 140029569233120
+2026-11-16,23:28:25.007 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:25.007 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:25.007 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:25.007 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:25.007 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:25.007 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:25.007 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:25.007 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:25.007 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:25.007 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:25.007 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:25.007 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:27.009 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:27.009 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:27.009 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:27.009 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:27.009 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:27.009 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:27.009 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:27.010 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:27.010 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:27.010 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:27.010 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:27.010 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:29.010 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:29.010 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:29.010 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:29.010 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:29.010 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:29.010 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:29.010 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:29.010 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:29.010 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:29.011 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:29.011 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:29.011 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:31.011 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:31.011 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:31.011 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:31.011 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:31.011 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:31.011 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:31.011 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:31.011 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:31.011 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:31.011 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:31.011 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:31.011 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:33.012 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:33.012 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:33.012 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:33.013 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:33.013 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:33.013 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:33.013 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:33.013 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:33.013 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:33.013 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:33.013 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:33.013 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:35.012 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:35.012 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:35.012 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:35.012 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:35.012 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:35.012 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:35.012 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:35.012 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:35.012 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:35.013 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:35.013 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:35.013 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:37.012 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851917.0125136)
+2026-11-16,23:28:37.013 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:37.013 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:37.013 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:37.013 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:37.013 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:37.013 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:37.013 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:37.013 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:37.013 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:37.013 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:37.013 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:37.013 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:39.013 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851919.013533)
+2026-11-16,23:28:39.014 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:39.014 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:39.014 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:39.014 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:39.014 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:39.014 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:39.014 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:39.014 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:39.014 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:39.014 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:39.014 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:39.014 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:41.014 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:41.014 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:41.014 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:41.014 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851921.0149367)
+2026-11-16,23:28:41.015 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:41.015 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:41.015 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:41.015 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:41.015 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:41.015 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:41.015 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:41.015 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:41.016 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:43.014 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:43.015 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:43.015 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:43.015 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:43.015 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:43.015 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:43.015 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:43.015 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:43.015 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:43.015 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851923.0153651)
+2026-11-16,23:28:43.015 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:43.015 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:43.015 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:45.016 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851925.016061)
+2026-11-16,23:28:45.016 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:45.016 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:45.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:45.017 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:45.017 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:45.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:45.017 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:45.017 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:45.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:45.018 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:45.018 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:45.018 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:47.016 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:47.016 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:47.016 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:47.016 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:47.016 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:47.016 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:47.016 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851927.0169582)
+2026-11-16,23:28:47.017 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:47.017 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:47.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:47.017 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:47.017 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:47.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:49.016 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:49.016 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:49.016 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:49.017 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:49.017 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:49.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:49.017 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:49.017 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:49.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:49.017 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:49.017 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:49.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:49.018 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851929.0179665)
+2026-11-16,23:28:51.017 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:51.017 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:51.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:51.017 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:51.017 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:51.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:51.017 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:51.017 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:51.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:51.017 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:51.017 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:51.017 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:51.018 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851931.0189188)
+2026-11-16,23:28:53.018 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:53.018 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:53.019 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:53.019 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:53.019 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:53.019 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:53.019 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:53.019 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:53.019 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:53.019 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851933.0195043)
+2026-11-16,23:28:53.019 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:53.019 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:53.019 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:55.019 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:55.019 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:55.020 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:55.020 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851935.0201395)
+2026-11-16,23:28:55.020 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:55.020 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:55.020 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:55.020 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:55.020 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:55.020 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:55.020 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:55.020 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:55.020 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:57.020 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851937.0205076)
+2026-11-16,23:28:57.020 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:57.020 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:57.020 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:57.020 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:57.020 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:57.020 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:57.021 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:57.021 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:57.021 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:57.021 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:57.021 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:57.022 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:59.021 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:59.022 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:59.022 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:59.022 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:59.022 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:59.022 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:28:59.022 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851939.0229092)
+2026-11-16,23:28:59.023 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:59.023 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:59.023 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:28:59.023 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:28:59.023 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:28:59.023 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:01.022 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:01.022 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:01.022 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:01.022 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:01.022 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:01.022 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:01.023 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:01.023 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:01.023 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:01.023 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:01.023 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:01.023 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:01.023 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851941.0233543)
+2026-11-16,23:29:03.023 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:03.023 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:03.023 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:03.023 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851943.0237024)
+2026-11-16,23:29:03.023 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:03.023 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:03.023 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:03.024 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:03.024 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:03.024 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:03.024 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:03.024 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:03.024 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:05.024 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:05.024 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:05.024 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:05.024 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:05.024 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:05.024 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:05.024 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851945.0248609)
+2026-11-16,23:29:05.025 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:05.025 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:05.025 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:05.025 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:05.025 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:05.025 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:07.024 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:07.024 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:07.024 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:07.024 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:07.024 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:07.024 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:07.025 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:07.025 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:07.025 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:07.025 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851947.0255642)
+2026-11-16,23:29:07.025 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:07.025 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:07.025 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:09.026 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:09.026 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:09.026 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:09.026 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:09.026 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:09.026 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:09.027 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:09.027 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:09.027 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:09.027 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851949.0273354)
+2026-11-16,23:29:09.027 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:09.027 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:09.027 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:11.027 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:11.027 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:11.027 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:11.027 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:11.027 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:11.027 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:11.028 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:11.028 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:11.028 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:11.028 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:11.028 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:11.028 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:13.028 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:13.028 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:13.028 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:13.029 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:13.029 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:13.029 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:13.029 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:13.029 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:13.029 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:13.029 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:13.029 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:13.029 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:14.093 someipyd [INFO]: Removed 1 timed out services. Remaining: 0
+2026-11-16,23:29:15.029 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:15.029 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:15.029 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:15.029 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:15.029 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:15.029 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:15.030 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:15.030 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:15.030 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:15.030 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:15.030 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:15.030 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:17.031 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:17.031 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:17.031 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:17.031 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:17.031 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:17.031 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:17.031 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:17.031 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:17.031 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:17.031 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:17.031 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:17.031 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:19.031 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:19.031 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:19.031 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:19.032 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:19.032 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:19.032 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:19.032 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:19.032 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:19.032 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:19.033 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:19.033 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:19.033 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:21.034 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:21.034 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:21.034 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:21.034 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:21.034 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:21.034 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:21.034 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:21.034 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:21.034 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:21.034 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:21.034 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:21.034 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:23.035 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:23.035 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:23.035 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:23.035 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:23.035 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:23.035 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:23.035 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:23.035 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:23.035 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:23.035 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:23.035 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:23.035 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:25.036 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:25.036 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:25.036 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:25.037 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:25.037 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:25.037 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:25.037 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:25.037 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:25.037 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:25.037 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:25.037 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:25.037 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:27.037 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:27.037 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:27.037 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:27.037 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:27.037 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:27.037 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:27.037 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:27.037 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:27.037 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:27.038 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:27.038 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:27.038 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:28.840 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851968.8407898)
+2026-11-16,23:29:29.039 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:29.039 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:29.039 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:29.040 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:29.040 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:29.040 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:29.040 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:29.040 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:29.040 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:29.040 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:29.040 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:29.040 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:30.842 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851970.842124)
+2026-11-16,23:29:31.040 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:31.040 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:31.040 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:31.040 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:31.040 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:31.040 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:31.040 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:31.040 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:31.040 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:31.040 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:31.041 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:31.041 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:32.843 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851972.8429837)
+2026-11-16,23:29:33.042 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:33.042 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:33.042 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:33.042 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:33.042 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:33.042 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:33.043 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:33.043 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:33.043 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:33.043 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:33.043 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:33.043 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:34.843 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851974.8436015)
+2026-11-16,23:29:35.042 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:35.042 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:35.042 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:35.042 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:35.042 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:35.042 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:35.043 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:35.043 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:35.043 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:35.043 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:35.043 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:35.043 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:36.844 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851976.8442752)
+2026-11-16,23:29:37.043 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:37.043 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:37.043 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:37.043 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:37.043 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:37.043 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:37.044 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:37.044 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:37.044 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:37.044 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:37.044 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:37.044 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:38.844 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851978.8446798)
+2026-11-16,23:29:39.043 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:39.043 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:39.043 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:39.044 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:39.044 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:39.044 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:39.044 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:39.044 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:39.044 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:39.044 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:39.044 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:39.044 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:40.845 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851980.8450744)
+2026-11-16,23:29:41.044 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:41.044 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:41.044 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:41.045 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:41.045 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:41.045 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:41.046 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:41.046 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:41.046 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:41.046 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:41.046 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:41.046 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:42.846 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851982.846469)
+2026-11-16,23:29:43.045 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:43.046 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:43.046 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:43.046 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:43.046 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:43.046 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:43.046 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:43.046 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:43.046 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:43.047 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:43.047 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:43.047 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:44.846 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851984.846874)
+2026-11-16,23:29:45.046 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:45.046 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:45.046 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:45.046 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:45.046 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:45.046 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:45.047 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:45.047 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:45.047 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:45.047 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:45.047 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:45.047 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:46.847 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794851986.8478699)
+2026-11-16,23:29:47.046 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:47.046 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:47.047 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:47.047 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:47.047 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:47.047 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:29:47.048 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:47.048 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:47.048 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:29:47.048 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:29:47.048 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:29:47.048 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:06.872 someipyd [INFO]: Starting SOME/IP daemon with config:
+Socket path: /tmp/someipyd_ecu_vehicle.sock
+SD address: 224.224.224.245
+SD port: 30490
+Interface: 192.168.50.10
+Loglevel: 20
+Log path: Console
+Use tcp: False
+Tcp port: None
+Tcp host: 127.0.0.1
+
+2026-11-16,23:30:06.872 someipyd [INFO]: Unix domain socket server started at /tmp/someipyd_ecu_vehicle.sock
+2026-11-16,23:30:07.058 someipyd [INFO]: New client connected: 140199309553888
+2026-11-16,23:30:07.058 someipyd [INFO]: New client connected: 140199309553888
+2026-11-16,23:30:07.059 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:07.059 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:07.059 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:07.061 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:07.061 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:07.061 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:07.061 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:07.061 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:07.061 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:07.061 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:07.061 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:07.061 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:08.856 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852008.8561852)
+2026-11-16,23:30:09.060 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:09.060 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:09.060 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:09.060 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:09.060 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:09.060 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:09.060 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:09.060 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:09.060 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:09.060 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:09.060 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:09.060 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:10.856 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852010.8564377)
+2026-11-16,23:30:11.060 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:11.060 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:11.060 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:11.060 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:11.060 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:11.060 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:11.060 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:11.061 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:11.061 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:11.061 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:11.061 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:11.061 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:12.858 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852012.8587217)
+2026-11-16,23:30:13.061 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:13.061 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:13.061 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:13.061 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:13.061 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:13.061 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:13.061 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:13.061 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:13.061 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:13.061 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:13.061 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:13.061 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:14.859 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852014.8593087)
+2026-11-16,23:30:15.061 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:15.061 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:15.061 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:15.061 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:15.061 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:15.061 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:15.062 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:15.062 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:15.062 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:15.062 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:15.062 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:15.062 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:16.859 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852016.8597906)
+2026-11-16,23:30:17.062 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:17.062 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:17.062 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:17.062 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:17.062 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:17.062 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:17.063 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:17.063 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:17.063 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:17.063 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:17.063 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:17.063 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:18.860 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852018.8604774)
+2026-11-16,23:30:19.062 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:19.062 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:19.062 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:19.062 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:19.062 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:19.062 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:19.062 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:19.062 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:19.062 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:19.063 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:19.063 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:19.063 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:20.861 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852020.8614337)
+2026-11-16,23:30:21.062 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:21.063 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:21.063 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:21.063 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:21.063 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:21.063 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:21.063 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:21.063 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:21.063 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:21.063 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:21.063 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:21.063 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:22.862 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852022.8620062)
+2026-11-16,23:30:23.064 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:23.064 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:23.064 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:23.064 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:23.064 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:23.064 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:23.064 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:23.064 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:23.064 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:23.064 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:23.064 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:23.064 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:24.862 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852024.86254)
+2026-11-16,23:30:25.064 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:25.064 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:25.064 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:25.064 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:25.064 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:25.064 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:25.064 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:25.064 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:25.064 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:25.064 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:25.064 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:25.064 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:26.863 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852026.8630905)
+2026-11-16,23:30:27.065 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:27.066 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:27.066 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:27.066 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:27.066 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:27.066 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:27.066 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:27.066 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:27.066 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:27.066 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:27.066 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:27.066 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:28.863 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852028.8635633)
+2026-11-16,23:30:29.066 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:29.066 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:29.066 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:29.066 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:29.066 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:29.066 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:29.067 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:29.067 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:29.067 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:29.067 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:29.067 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:29.067 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:30.864 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852030.864395)
+2026-11-16,23:30:31.067 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:31.067 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:31.067 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:31.067 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:31.067 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:31.067 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:31.067 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:31.067 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:31.067 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:31.067 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:31.067 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:31.067 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:32.865 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852032.8650413)
+2026-11-16,23:30:33.067 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:33.067 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:33.067 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:33.068 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:33.068 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:33.068 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:33.068 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:33.068 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:33.068 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:33.068 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:33.068 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:33.068 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:34.865 someipyd [INFO]: Received offered service: ServiceInstance(service_id=8756, instance_id=1, major_version=1, minor_version=0, ttl=5, endpoint=Endpoint(ip=IPv4Address('192.168.50.30'), port=3001), protocols=frozenset({<TransportLayerProtocol.UDP: 17>}), timestamp=1794852034.865688)
+2026-11-16,23:30:35.068 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:35.068 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:35.068 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:35.068 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.40'), port=3003, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:35.068 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:35.068 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.40:3003
+2026-11-16,23:30:35.068 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=1, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:35.068 someipyd [INFO]: Subscription to eventgroup 0x0001 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:35.068 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0001 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:35.069 someipyd [INFO]: Received subscription: SdSubscription(service_id=4660, instance_id=22136, major_version=1, ttl=5, initial_data_requested_flag=True, counter=0, eventgroup_id=2, ipv4_address=IPv4Address('192.168.50.20'), port=3002, protocol=<TransportLayerProtocol.UDP: 17>)
+2026-11-16,23:30:35.069 someipyd [INFO]: Subscription to eventgroup 0x0002 of service 0x1234, instance 0x5678 requested.
+2026-11-16,23:30:35.069 someipyd [INFO]: Sending subscribe ack for eventgroup 0x0002 of service 0x1234 instance 0x5678 to 192.168.50.20:3002
+2026-11-16,23:30:36.906 someipyd [INFO]: Client disconnected: 140199309553888

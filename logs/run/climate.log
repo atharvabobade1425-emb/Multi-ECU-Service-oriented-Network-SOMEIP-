@@ -1,0 +1,63 @@
+23:28:37 [Climate ECU] ============================================================
+23:28:37 [Climate ECU] Offering ClimateService 0x2234 / instance 0x0001 on 192.168.50.30:3001 (UDP)
+23:28:37 [Climate ECU] Methods: GetCabinTemperature 0x0001, SetTargetTemperature 0x0002 | Event: CabinTemperatureChanged 0x8001 (EG 0x0001)
+23:28:37 [Climate ECU] Initial state: cabin 24.0 degC, target 22.0 degC
+23:28:37 [Climate ECU] ============================================================
+23:28:37 [Climate ECU] GetCabinTemperature request from Central Display (192.168.50.40:3004) -> Current Cabin Temperature = 24.0 degC (240) -> response sent
+23:28:37 [Climate ECU] SetTargetTemperature(22.0 degC = 220) from Central Display (192.168.50.40:3004) -> Status = ACCEPTED (0); target 22.0 -> 22.0 degC
+23:28:37 [Climate ECU] SetTargetTemperature(16.0 degC = 160) from Central Display (192.168.50.40:3004) -> Status = ACCEPTED (0); target 22.0 -> 16.0 degC
+23:28:38 [Climate ECU] SetTargetTemperature(30.0 degC = 300) from Central Display (192.168.50.40:3004) -> Status = ACCEPTED (0); target 16.0 -> 30.0 degC
+23:28:38 [Climate ECU] SetTargetTemperature(10.0 degC = 100) from Central Display (192.168.50.40:3004) -> Status = INVALID_TEMPERATURE (1); outside 16.0..30.0 degC, target unchanged at 30.0 degC
+23:28:39 [Climate ECU] SetTargetTemperature(35.0 degC = 350) from Central Display (192.168.50.40:3004) -> Status = INVALID_TEMPERATURE (1); outside 16.0..30.0 degC, target unchanged at 30.0 degC
+23:28:39 [Climate ECU] SetTargetTemperature(22.0 degC = 220) from Central Display (192.168.50.40:3004) -> Status = ACCEPTED (0); target 30.0 -> 22.0 degC
+23:28:40 [Climate ECU] Cabin temperature = 24.5 degC (245) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:28:43 [Climate ECU] Cabin temperature = 25.0 degC (250) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:28:46 [Climate ECU] Cabin temperature = 25.5 degC (255) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:28:47 [Climate ECU] GetCabinTemperature request from Central Display (192.168.50.40:3004) -> Current Cabin Temperature = 25.5 degC (255) -> response sent
+23:28:49 [Climate ECU] Cabin temperature = 26.0 degC (260) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:28:52 [Climate ECU] Cabin temperature = 25.5 degC (255) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:28:55 [Climate ECU] Cabin temperature = 25.0 degC (250) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:28:58 [Climate ECU] Cabin temperature = 24.5 degC (245) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:01 [Climate ECU] Cabin temperature = 24.0 degC (240) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:02 [Climate ECU] GetCabinTemperature request from Central Display (192.168.50.40:3004) -> Current Cabin Temperature = 24.0 degC (240) -> response sent
+23:29:04 [Climate ECU] Cabin temperature = 24.5 degC (245) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:07 [Climate ECU] Cabin temperature = 25.0 degC (250) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:10 [Climate ECU] Cabin temperature = 25.5 degC (255) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:10 [Climate ECU] Stop offering ClimateService (StopOffer)
+23:29:10 [Climate ECU] Disconnected from someipy daemon
+23:29:28 [Climate ECU] ============================================================
+23:29:28 [Climate ECU] Offering ClimateService 0x2234 / instance 0x0001 on 192.168.50.30:3001 (UDP)
+23:29:28 [Climate ECU] Methods: GetCabinTemperature 0x0001, SetTargetTemperature 0x0002 | Event: CabinTemperatureChanged 0x8001 (EG 0x0001)
+23:29:28 [Climate ECU] Initial state: cabin 24.0 degC, target 22.0 degC
+23:29:28 [Climate ECU] ============================================================
+23:29:29 [Climate ECU] GetCabinTemperature request from Central Display (192.168.50.40:3004) -> Current Cabin Temperature = 24.0 degC (240) -> response sent
+23:29:29 [Climate ECU] SetTargetTemperature(22.0 degC = 220) from Central Display (192.168.50.40:3004) -> Status = ACCEPTED (0); target 22.0 -> 22.0 degC
+23:29:31 [Climate ECU] Cabin temperature = 24.5 degC (245) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:32 [Climate ECU] GetCabinTemperature request from Central Display (192.168.50.40:3004) -> Current Cabin Temperature = 24.5 degC (245) -> response sent
+23:29:34 [Climate ECU] Cabin temperature = 25.0 degC (250) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:37 [Climate ECU] Cabin temperature = 25.5 degC (255) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:40 [Climate ECU] Cabin temperature = 26.0 degC (260) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:43 [Climate ECU] Cabin temperature = 25.5 degC (255) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:46 [Climate ECU] Cabin temperature = 25.0 degC (250) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:47 [Climate ECU] GetCabinTemperature request from Central Display (192.168.50.40:3004) -> Current Cabin Temperature = 25.0 degC (250) -> response sent
+23:29:49 [Climate ECU] Cabin temperature = 24.5 degC (245) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:52 [Climate ECU] Cabin temperature = 24.0 degC (240) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:55 [Climate ECU] Cabin temperature = 24.5 degC (245) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:29:58 [Climate ECU] Cabin temperature = 25.0 degC (250) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:01 [Climate ECU] Cabin temperature = 25.5 degC (255) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:02 [Climate ECU] GetCabinTemperature request from Central Display (192.168.50.40:3004) -> Current Cabin Temperature = 25.5 degC (255) -> response sent
+23:30:04 [Climate ECU] Cabin temperature = 26.0 degC (260) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:07 [Climate ECU] Cabin temperature = 25.5 degC (255) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:10 [Climate ECU] Cabin temperature = 25.0 degC (250) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:13 [Climate ECU] Cabin temperature = 24.5 degC (245) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:16 [Climate ECU] Cabin temperature = 24.0 degC (240) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:17 [Climate ECU] GetCabinTemperature request from Central Display (192.168.50.40:3004) -> Current Cabin Temperature = 24.0 degC (240) -> response sent
+23:30:19 [Climate ECU] Cabin temperature = 24.5 degC (245) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:22 [Climate ECU] Cabin temperature = 25.0 degC (250) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:25 [Climate ECU] Cabin temperature = 25.5 degC (255) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:28 [Climate ECU] Cabin temperature = 26.0 degC (260) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:31 [Climate ECU] Cabin temperature = 25.5 degC (255) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:32 [Climate ECU] GetCabinTemperature request from Central Display (192.168.50.40:3004) -> Current Cabin Temperature = 25.5 degC (255) -> response sent
+23:30:34 [Climate ECU] Cabin temperature = 25.0 degC (250) -> CabinTemperatureChanged sent (target 22.0 degC)
+23:30:36 [Climate ECU] Stop offering ClimateService (StopOffer)
+23:30:36 [Climate ECU] Disconnected from someipy daemon

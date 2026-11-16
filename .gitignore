@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+docs/source/.tmp_*
+logs/daemon_*.log

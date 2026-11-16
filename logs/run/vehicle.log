@@ -1,0 +1,125 @@
+23:28:25 [Vehicle ECU] ============================================================
+23:28:25 [Vehicle ECU] Offering VehicleSpeedService 0x1234 / instance 0x5678 on 192.168.50.10:3000 (UDP)
+23:28:25 [Vehicle ECU] Methods: GetSpeed 0x0001, GetVehicleState 0x0002 | Events: SpeedChanged 0x8001 (EG 0x0001), OverspeedWarning 0x8002 (EG 0x0002)
+23:28:25 [Vehicle ECU] ============================================================
+23:28:25 [Vehicle ECU] Speed =   0 km/h (unchanged, no event)
+23:28:25 [Vehicle ECU] GetSpeed request from Central Display (192.168.50.40:3003) -> response 0 km/h
+23:28:25 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 0 km/h -> response 0 (STOPPED)
+23:28:25 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 0 km/h
+23:28:25 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 0 km/h -> response 0 (STOPPED)
+23:28:27 [Vehicle ECU] Speed =   0 km/h (unchanged, no event)
+23:28:29 [Vehicle ECU] Speed =  20 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:29 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 20 km/h -> response 1 (MOVING)
+23:28:31 [Vehicle ECU] Speed =  40 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:32 [Vehicle ECU] GetSpeed request from Central Display (192.168.50.40:3003) -> response 40 km/h
+23:28:32 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 40 km/h -> response 1 (MOVING)
+23:28:33 [Vehicle ECU] Speed =  50 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:33 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 50 km/h
+23:28:33 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 50 km/h -> response 1 (MOVING)
+23:28:35 [Vehicle ECU] Speed =  60 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:37 [Vehicle ECU] Speed =  70 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:39 [Vehicle ECU] Speed =  80 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:41 [Vehicle ECU] Speed =  90 km/h -> SpeedChanged sent, OverspeedWarning sent
+23:28:41 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 90 km/h
+23:28:41 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 90 km/h -> response 1 (MOVING)
+23:28:43 [Vehicle ECU] Speed = 100 km/h -> SpeedChanged sent, OverspeedWarning sent
+23:28:45 [Vehicle ECU] Speed =  90 km/h -> SpeedChanged sent, OverspeedWarning sent
+23:28:47 [Vehicle ECU] GetSpeed request from Central Display (192.168.50.40:3003) -> response 90 km/h
+23:28:47 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 90 km/h -> response 1 (MOVING)
+23:28:47 [Vehicle ECU] Speed =  80 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:49 [Vehicle ECU] Speed =  70 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:49 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 70 km/h
+23:28:49 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 70 km/h -> response 1 (MOVING)
+23:28:51 [Vehicle ECU] Speed =  50 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:53 [Vehicle ECU] Speed =  30 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:55 [Vehicle ECU] Speed =  10 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:57 [Vehicle ECU] Speed =   0 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:28:57 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 0 km/h -> response 0 (STOPPED)
+23:28:57 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 0 km/h -> response 0 (STOPPED)
+23:28:57 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 0 km/h
+23:28:57 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 0 km/h -> response 0 (STOPPED)
+23:28:59 [Vehicle ECU] Speed =   0 km/h (unchanged, no event)
+23:29:01 [Vehicle ECU] Speed =   0 km/h (unchanged, no event)
+23:29:02 [Vehicle ECU] GetSpeed request from Central Display (192.168.50.40:3003) -> response 0 km/h
+23:29:02 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 0 km/h -> response 0 (STOPPED)
+23:29:03 [Vehicle ECU] Speed =   0 km/h (unchanged, no event)
+23:29:05 [Vehicle ECU] Speed =  20 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:05 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 20 km/h -> response 1 (MOVING)
+23:29:05 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 20 km/h
+23:29:05 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 20 km/h -> response 1 (MOVING)
+23:29:07 [Vehicle ECU] Speed =  40 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:09 [Vehicle ECU] Speed =  50 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:11 [Vehicle ECU] Speed =  60 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:13 [Vehicle ECU] Speed =  70 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:13 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 70 km/h
+23:29:13 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 70 km/h -> response 1 (MOVING)
+23:29:15 [Vehicle ECU] Speed =  80 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:17 [Vehicle ECU] GetSpeed request from Central Display (192.168.50.40:3003) -> response 80 km/h
+23:29:17 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 80 km/h -> response 1 (MOVING)
+23:29:17 [Vehicle ECU] Speed =  90 km/h -> SpeedChanged sent, OverspeedWarning sent
+23:29:19 [Vehicle ECU] Speed = 100 km/h -> SpeedChanged sent, OverspeedWarning sent
+23:29:21 [Vehicle ECU] Speed =  90 km/h -> SpeedChanged sent, OverspeedWarning sent
+23:29:21 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 90 km/h
+23:29:21 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 90 km/h -> response 1 (MOVING)
+23:29:23 [Vehicle ECU] Speed =  80 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:25 [Vehicle ECU] Speed =  70 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:27 [Vehicle ECU] Speed =  50 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:29 [Vehicle ECU] Speed =  30 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:29 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 30 km/h
+23:29:29 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 30 km/h -> response 1 (MOVING)
+23:29:31 [Vehicle ECU] Speed =  10 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:32 [Vehicle ECU] GetSpeed request from Central Display (192.168.50.40:3003) -> response 10 km/h
+23:29:32 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 10 km/h -> response 1 (MOVING)
+23:29:33 [Vehicle ECU] Speed =   0 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:33 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 0 km/h -> response 0 (STOPPED)
+23:29:33 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 0 km/h -> response 0 (STOPPED)
+23:29:35 [Vehicle ECU] Speed =   0 km/h (unchanged, no event)
+23:29:37 [Vehicle ECU] Speed =   0 km/h (unchanged, no event)
+23:29:37 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 0 km/h
+23:29:37 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 0 km/h -> response 0 (STOPPED)
+23:29:39 [Vehicle ECU] Speed =   0 km/h (unchanged, no event)
+23:29:41 [Vehicle ECU] Speed =  20 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:41 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 20 km/h -> response 1 (MOVING)
+23:29:43 [Vehicle ECU] Speed =  40 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:45 [Vehicle ECU] Speed =  50 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:29:45 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 50 km/h
+23:29:45 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 50 km/h -> response 1 (MOVING)
+23:29:47 [Vehicle ECU] GetSpeed request from Central Display (192.168.50.40:3003) -> response 50 km/h
+23:29:47 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 50 km/h -> response 1 (MOVING)
+23:29:47 [Vehicle ECU] Speed =  60 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:30:07 [Vehicle ECU] ============================================================
+23:30:07 [Vehicle ECU] Offering VehicleSpeedService 0x1234 / instance 0x5678 on 192.168.50.10:3000 (UDP)
+23:30:07 [Vehicle ECU] Methods: GetSpeed 0x0001, GetVehicleState 0x0002 | Events: SpeedChanged 0x8001 (EG 0x0001), OverspeedWarning 0x8002 (EG 0x0002)
+23:30:07 [Vehicle ECU] ============================================================
+23:30:07 [Vehicle ECU] Speed =   0 km/h (unchanged, no event)
+23:30:07 [Vehicle ECU] GetSpeed request from Central Display (192.168.50.40:3003) -> response 0 km/h
+23:30:07 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 0 km/h -> response 0 (STOPPED)
+23:30:07 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 0 km/h
+23:30:07 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 0 km/h -> response 0 (STOPPED)
+23:30:09 [Vehicle ECU] Speed =   0 km/h (unchanged, no event)
+23:30:11 [Vehicle ECU] Speed =  20 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:30:11 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 20 km/h -> response 1 (MOVING)
+23:30:13 [Vehicle ECU] Speed =  40 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:30:15 [Vehicle ECU] Speed =  50 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:30:15 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 50 km/h
+23:30:15 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 50 km/h -> response 1 (MOVING)
+23:30:17 [Vehicle ECU] GetSpeed request from Central Display (192.168.50.40:3003) -> response 50 km/h
+23:30:17 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 50 km/h -> response 1 (MOVING)
+23:30:17 [Vehicle ECU] Speed =  60 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:30:19 [Vehicle ECU] Speed =  70 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:30:21 [Vehicle ECU] Speed =  80 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:30:23 [Vehicle ECU] Speed =  90 km/h -> SpeedChanged sent, OverspeedWarning sent
+23:30:23 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 90 km/h
+23:30:23 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 90 km/h -> response 1 (MOVING)
+23:30:25 [Vehicle ECU] Speed = 100 km/h -> SpeedChanged sent, OverspeedWarning sent
+23:30:27 [Vehicle ECU] Speed =  90 km/h -> SpeedChanged sent, OverspeedWarning sent
+23:30:29 [Vehicle ECU] Speed =  80 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:30:31 [Vehicle ECU] Speed =  70 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:30:31 [Vehicle ECU] GetSpeed request from Instrument Cluster (192.168.50.20:3002) -> response 70 km/h
+23:30:31 [Vehicle ECU] GetVehicleState request from Instrument Cluster (192.168.50.20:3002) -> speed 70 km/h -> response 1 (MOVING)
+23:30:32 [Vehicle ECU] GetSpeed request from Central Display (192.168.50.40:3003) -> response 70 km/h
+23:30:32 [Vehicle ECU] GetVehicleState request from Central Display (192.168.50.40:3003) -> speed 70 km/h -> response 1 (MOVING)
+23:30:33 [Vehicle ECU] Speed =  50 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:30:35 [Vehicle ECU] Speed =  30 km/h -> SpeedChanged sent, OverspeedWarning not generated
+23:30:36 [Vehicle ECU] Stop offering VehicleSpeedService (StopOffer)
+23:30:36 [Vehicle ECU] Disconnected from someipy daemon

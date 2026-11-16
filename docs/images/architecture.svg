@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 640" font-family="DejaVu Sans, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2a78d6"/></marker>
+    <marker id="b" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#c4501f"/></marker>
+  </defs>
+  <rect width="1100" height="640" fill="#fff"/>
+  <text x="550" y="30" text-anchor="middle" font-size="20" font-weight="bold">Multi-ECU Service-Oriented Vehicle Network (SOME/IP over UDP)</text>
+
+  <!-- providers -->
+  <g font-size="11.5">
+    <rect x="40" y="60" width="330" height="200" rx="10" fill="#e8f1fc" stroke="#2a78d6" stroke-width="2.5"/>
+    <text x="205" y="86" text-anchor="middle" font-size="15" font-weight="bold" fill="#0b3d78">ECU 1 - Vehicle ECU (Provider)</text>
+    <text x="205" y="104" text-anchor="middle" fill="#52514e">vehicle_speed_service.py | 192.168.50.10:3000</text>
+    <rect x="58" y="114" width="294" height="134" rx="6" fill="#fff" stroke="#2a78d6"/>
+    <text x="70" y="134" font-weight="bold">VehicleSpeedService 0x1234 / inst 0x5678</text>
+    <text x="70" y="156">M  GetSpeed()            0x0001 -> uint16 km/h</text>
+    <text x="70" y="176">M  GetVehicleState()     0x0002 -> uint8 state</text>
+    <text x="70" y="198">E  SpeedChanged          0x8001   EG 0x0001</text>
+    <text x="70" y="218">E  OverspeedWarning      0x8002   EG 0x0002</text>
+    <text x="70" y="238" fill="#52514e" font-size="11.5">   (sent only when speed &gt; 80 km/h)</text>
+
+    <rect x="730" y="60" width="330" height="200" rx="10" fill="#fdeee7" stroke="#c4501f" stroke-width="2.5"/>
+    <text x="895" y="86" text-anchor="middle" font-size="15" font-weight="bold" fill="#7a2a08">ECU 3 - Climate ECU (Provider)</text>
+    <text x="895" y="104" text-anchor="middle" fill="#52514e">climate_service.py | 192.168.50.30:3001</text>
+    <rect x="748" y="114" width="294" height="134" rx="6" fill="#fff" stroke="#c4501f"/>
+    <text x="760" y="134" font-weight="bold">ClimateService 0x2234 / inst 0x0001</text>
+    <text x="760" y="156">M  GetCabinTemperature()  0x0001 -> int16</text>
+    <text x="760" y="176">M  SetTargetTemperature() 0x0002</text>
+    <text x="760" y="194" fill="#52514e" font-size="11.5">     int16 [0.1 degC] -> uint8 status</text>
+    <text x="760" y="216">E  CabinTempChanged 0x8001 EG 0x0001</text>
+    <text x="760" y="238" fill="#52514e" font-size="11.5">   (validation 160..300 in the application)</text>
+  </g>
+
+  <!-- bus -->
+  <rect x="40" y="300" width="1020" height="44" rx="8" fill="#eef7ef" stroke="#1baf7a" stroke-width="2"/>
+  <text x="550" y="320" text-anchor="middle" font-size="14" font-weight="bold" fill="#0d5c40">Virtual vehicle Ethernet 192.168.50.0/24  -  SOME/IP-SD on 224.224.224.245:30490 (each ECU has its own someipy daemon)</text>
+  <text x="550" y="337" text-anchor="middle" font-size="11.5" fill="#333">Localhost mode (course setup): the same four applications on 127.0.0.1 with one shared daemon</text>
+  <g stroke="#333" stroke-width="2"><line x1="205" y1="260" x2="205" y2="300"/><line x1="895" y1="260" x2="895" y2="300"/><line x1="205" y1="344" x2="205" y2="390"/><line x1="895" y1="344" x2="895" y2="390"/></g>
+
+  <!-- consumers -->
+  <g font-size="11.5">
+    <rect x="40" y="390" width="330" height="170" rx="10" fill="#f3f5f8" stroke="#5a6475" stroke-width="2.5"/>
+    <text x="205" y="416" text-anchor="middle" font-size="15" font-weight="bold">ECU 2 - Instrument Cluster</text>
+    <text x="205" y="434" text-anchor="middle" fill="#52514e">cluster_client.py | 192.168.50.20:3002 | Client 0x0010</text>
+    <text x="58" y="460">Consumer of VehicleSpeedService:</text>
+    <text x="70" y="482">calls GetSpeed(), GetVehicleState()</text>
+    <text x="70" y="504">subscribes EG 0x0001 (SpeedChanged)</text>
+    <text x="70" y="526">subscribes EG 0x0002 (OverspeedWarning)</text>
+
+    <rect x="730" y="390" width="330" height="200" rx="10" fill="#f3f5f8" stroke="#5a6475" stroke-width="2.5"/>
+    <text x="895" y="416" text-anchor="middle" font-size="15" font-weight="bold">ECU 4 - Central Display</text>
+    <text x="895" y="434" text-anchor="middle" fill="#52514e">central_display.py | 192.168.50.40 | Client 0x0020</text>
+    <text x="748" y="460">Consumer of BOTH services:</text>
+    <text x="760" y="482" fill="#0b3d78">0x1234 via :3003 - GetSpeed, GetVehicleState,</text>
+    <text x="760" y="500" fill="#0b3d78">   SpeedChanged, OverspeedWarning</text>
+    <text x="760" y="524" fill="#7a2a08">0x2234 via :3004 - GetCabinTemperature,</text>
+    <text x="760" y="542" fill="#7a2a08">   SetTargetTemperature, CabinTempChanged</text>
+    <text x="760" y="568" fill="#52514e" font-size="11.5">tracks availability of each service independently</text>
+  </g>
+
+  <text x="40" y="610" font-size="12.5" fill="#333">Relationship 1: one service, multiple consumers (0x1234 -&gt; Cluster + Display)</text>
+  <text x="40" y="628" font-size="12.5" fill="#333">Relationship 2: one consumer, multiple services (Display &lt;- 0x1234 + 0x2234)</text>
+</svg>

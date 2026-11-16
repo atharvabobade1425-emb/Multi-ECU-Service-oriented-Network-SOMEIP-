@@ -1,0 +1,97 @@
+23:28:17 [Instrument Cluster] ============================================================
+23:28:17 [Instrument Cluster] Instrument Cluster ECU started (client ID 0x0010, endpoint 192.168.50.20:3002)
+23:28:17 [Instrument Cluster] Subscribed to event groups 0x0001 (SpeedChanged) and 0x0002 (OverspeedWarning)
+23:28:17 [Instrument Cluster] ============================================================
+23:28:17 [Instrument Cluster] Waiting for VehicleSpeedService 0x1234 / 0x5678 ...
+23:28:25 [Instrument Cluster] VehicleSpeedService AVAILABLE
+23:28:25 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 0 km/h
+23:28:25 [Instrument Cluster] GetVehicleState() response -> Vehicle State : STOPPED
+23:28:29 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 20 km/h
+23:28:31 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 40 km/h
+23:28:33 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 50 km/h
+23:28:33 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 50 km/h
+23:28:33 [Instrument Cluster] GetVehicleState() response -> Vehicle State : MOVING
+23:28:35 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 60 km/h
+23:28:37 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 70 km/h
+23:28:39 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 80 km/h
+23:28:41 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 90 km/h
+23:28:41 [Instrument Cluster] !!! OVERSPEED WARNING (0x8002) !!!  Vehicle Speed : 90 km/h
+23:28:41 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 90 km/h
+23:28:41 [Instrument Cluster] GetVehicleState() response -> Vehicle State : MOVING
+23:28:43 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 100 km/h
+23:28:43 [Instrument Cluster] !!! OVERSPEED WARNING (0x8002) !!!  Vehicle Speed : 100 km/h
+23:28:45 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 90 km/h
+23:28:45 [Instrument Cluster] !!! OVERSPEED WARNING (0x8002) !!!  Vehicle Speed : 90 km/h
+23:28:47 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 80 km/h
+23:28:49 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 70 km/h
+23:28:49 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 70 km/h
+23:28:49 [Instrument Cluster] GetVehicleState() response -> Vehicle State : MOVING
+23:28:51 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 50 km/h
+23:28:53 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 30 km/h
+23:28:55 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 10 km/h
+23:28:57 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 0 km/h
+23:28:57 [Instrument Cluster] GetVehicleState() response -> Vehicle State : STOPPED
+23:28:57 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 0 km/h
+23:28:57 [Instrument Cluster] GetVehicleState() response -> Vehicle State : STOPPED
+23:29:05 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 20 km/h
+23:29:05 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 20 km/h
+23:29:05 [Instrument Cluster] GetVehicleState() response -> Vehicle State : MOVING
+23:29:07 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 40 km/h
+23:29:09 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 50 km/h
+23:29:11 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 60 km/h
+23:29:13 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 70 km/h
+23:29:13 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 70 km/h
+23:29:13 [Instrument Cluster] GetVehicleState() response -> Vehicle State : MOVING
+23:29:15 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 80 km/h
+23:29:17 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 90 km/h
+23:29:17 [Instrument Cluster] !!! OVERSPEED WARNING (0x8002) !!!  Vehicle Speed : 90 km/h
+23:29:19 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 100 km/h
+23:29:19 [Instrument Cluster] !!! OVERSPEED WARNING (0x8002) !!!  Vehicle Speed : 100 km/h
+23:29:21 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 90 km/h
+23:29:21 [Instrument Cluster] !!! OVERSPEED WARNING (0x8002) !!!  Vehicle Speed : 90 km/h
+23:29:21 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 90 km/h
+23:29:21 [Instrument Cluster] GetVehicleState() response -> Vehicle State : MOVING
+23:29:23 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 80 km/h
+23:29:25 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 70 km/h
+23:29:27 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 50 km/h
+23:29:29 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 30 km/h
+23:29:29 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 30 km/h
+23:29:29 [Instrument Cluster] GetVehicleState() response -> Vehicle State : MOVING
+23:29:31 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 10 km/h
+23:29:33 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 0 km/h
+23:29:33 [Instrument Cluster] GetVehicleState() response -> Vehicle State : STOPPED
+23:29:37 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 0 km/h
+23:29:37 [Instrument Cluster] GetVehicleState() response -> Vehicle State : STOPPED
+23:29:41 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 20 km/h
+23:29:43 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 40 km/h
+23:29:45 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 50 km/h
+23:29:45 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 50 km/h
+23:29:45 [Instrument Cluster] GetVehicleState() response -> Vehicle State : MOVING
+23:29:47 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 60 km/h
+23:29:52 [Instrument Cluster] VehicleSpeedService NOT AVAILABLE
+23:30:07 [Instrument Cluster] VehicleSpeedService AVAILABLE
+23:30:07 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 0 km/h
+23:30:07 [Instrument Cluster] GetVehicleState() response -> Vehicle State : STOPPED
+23:30:11 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 20 km/h
+23:30:13 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 40 km/h
+23:30:15 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 50 km/h
+23:30:15 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 50 km/h
+23:30:15 [Instrument Cluster] GetVehicleState() response -> Vehicle State : MOVING
+23:30:17 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 60 km/h
+23:30:19 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 70 km/h
+23:30:21 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 80 km/h
+23:30:23 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 90 km/h
+23:30:23 [Instrument Cluster] !!! OVERSPEED WARNING (0x8002) !!!  Vehicle Speed : 90 km/h
+23:30:23 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 90 km/h
+23:30:23 [Instrument Cluster] GetVehicleState() response -> Vehicle State : MOVING
+23:30:25 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 100 km/h
+23:30:25 [Instrument Cluster] !!! OVERSPEED WARNING (0x8002) !!!  Vehicle Speed : 100 km/h
+23:30:27 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 90 km/h
+23:30:27 [Instrument Cluster] !!! OVERSPEED WARNING (0x8002) !!!  Vehicle Speed : 90 km/h
+23:30:29 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 80 km/h
+23:30:31 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 70 km/h
+23:30:31 [Instrument Cluster] GetSpeed() response        -> Vehicle Speed : 70 km/h
+23:30:31 [Instrument Cluster] GetVehicleState() response -> Vehicle State : MOVING
+23:30:33 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 50 km/h
+23:30:35 [Instrument Cluster] SpeedChanged notification received (0x8001) -> Vehicle Speed : 30 km/h
+23:30:36 [Instrument Cluster] Stopped

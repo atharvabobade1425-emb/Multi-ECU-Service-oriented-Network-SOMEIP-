@@ -1,0 +1,7 @@
+# Decode the SOME/IP ports used by this project (Wireshark: Analyze > Decode As...)
+decode_as_entry: udp.port,30490,(none),SOME/IP
+decode_as_entry: udp.port,3000,(none),SOME/IP
+decode_as_entry: udp.port,3001,(none),SOME/IP
+decode_as_entry: udp.port,3002,(none),SOME/IP
+decode_as_entry: udp.port,3003,(none),SOME/IP
+decode_as_entry: udp.port,3004,(none),SOME/IP

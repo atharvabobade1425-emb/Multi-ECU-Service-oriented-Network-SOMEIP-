@@ -1,0 +1,24 @@
+2026-11-16,23:38:49.170 someipyd [INFO]: Starting SOME/IP daemon with config:
+Socket path: /tmp/someipyd.sock
+SD address: 224.224.224.245
+SD port: 30490
+Interface: 127.0.0.1
+Loglevel: 20
+Log path: Console
+Use tcp: False
+Tcp port: None
+Tcp host: 127.0.0.1
+
+2026-11-16,23:38:49.170 someipyd [INFO]: Unix domain socket server started at /tmp/someipyd.sock
+2026-11-16,23:38:50.689 someipyd [INFO]: New client connected: 140189747605728
+2026-11-16,23:38:50.689 someipyd [INFO]: New client connected: 140189747605728
+2026-11-16,23:38:50.713 someipyd [INFO]: New client connected: 140189747409488
+2026-11-16,23:38:50.714 someipyd [INFO]: New client connected: 140189747409488
+2026-11-16,23:38:54.676 someipyd [INFO]: New client connected: 140189747411088
+2026-11-16,23:38:54.676 someipyd [INFO]: New client connected: 140189747411088
+2026-11-16,23:39:00.688 someipyd [INFO]: New client connected: 140189747648832
+2026-11-16,23:39:00.688 someipyd [INFO]: New client connected: 140189747648832
+2026-11-16,23:39:30.730 someipyd [INFO]: Client disconnected: 140189747409488
+2026-11-16,23:39:30.731 someipyd [INFO]: Client disconnected: 140189747605728
+2026-11-16,23:39:30.738 someipyd [INFO]: Client disconnected: 140189747411088
+2026-11-16,23:39:30.739 someipyd [INFO]: Client disconnected: 140189747648832

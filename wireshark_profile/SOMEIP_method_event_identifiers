@@ -1,0 +1,7 @@
+"0x1234","0x0001","GetSpeed"
+"0x1234","0x0002","GetVehicleState"
+"0x1234","0x8001","SpeedChanged"
+"0x1234","0x8002","OverspeedWarning"
+"0x2234","0x0001","GetCabinTemperature"
+"0x2234","0x0002","SetTargetTemperature"
+"0x2234","0x8001","CabinTemperatureChanged"

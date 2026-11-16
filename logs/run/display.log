@@ -1,0 +1,339 @@
+23:28:17 [Central Display] Central Display ECU started (client ID 0x0020; endpoints 192.168.50.40:3003 for 0x1234, 192.168.50.40:3004 for 0x2234)
+23:28:17 [Central Display] Subscribed: 0x1234 EG 0x0001 + 0x0002, 0x2234 EG 0x0001
+23:28:17 [Central Display] ==================================================
+23:28:17 [Central Display] CENTRAL VEHICLE DISPLAY
+23:28:17 [Central Display] ==================================================
+23:28:17 [Central Display] VehicleSpeedService : NOT AVAILABLE
+23:28:17 [Central Display] ClimateService      : NOT AVAILABLE
+23:28:17 [Central Display] 
+23:28:17 [Central Display] Vehicle Speed       : ---
+23:28:17 [Central Display] Vehicle State       : ---
+23:28:17 [Central Display] 
+23:28:17 [Central Display] Cabin Temperature   : ---
+23:28:17 [Central Display] Target Temperature  : ---
+23:28:17 [Central Display] ==================================================
+23:28:25 [Central Display] VehicleSpeedService : AVAILABLE   (ClimateService : NOT AVAILABLE)
+23:28:25 [Central Display] GetSpeed() response -> 0 km/h
+23:28:25 [Central Display] GetVehicleState() response -> STOPPED
+23:28:25 [Central Display] ==================================================
+23:28:25 [Central Display] CENTRAL VEHICLE DISPLAY
+23:28:25 [Central Display] ==================================================
+23:28:25 [Central Display] VehicleSpeedService : AVAILABLE
+23:28:25 [Central Display] ClimateService      : NOT AVAILABLE
+23:28:25 [Central Display] 
+23:28:25 [Central Display] Vehicle Speed       : 0 km/h
+23:28:25 [Central Display] Vehicle State       : STOPPED
+23:28:25 [Central Display] 
+23:28:25 [Central Display] Cabin Temperature   : ---
+23:28:25 [Central Display] Target Temperature  : ---
+23:28:25 [Central Display] ==================================================
+23:28:29 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 20 km/h
+23:28:29 [Central Display] GetVehicleState() response -> MOVING
+23:28:31 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 40 km/h
+23:28:32 [Central Display] GetSpeed() response -> 40 km/h
+23:28:32 [Central Display] GetVehicleState() response -> MOVING
+23:28:32 [Central Display] ==================================================
+23:28:32 [Central Display] CENTRAL VEHICLE DISPLAY
+23:28:32 [Central Display] ==================================================
+23:28:32 [Central Display] VehicleSpeedService : AVAILABLE
+23:28:32 [Central Display] ClimateService      : NOT AVAILABLE
+23:28:32 [Central Display] 
+23:28:32 [Central Display] Vehicle Speed       : 40 km/h
+23:28:32 [Central Display] Vehicle State       : MOVING
+23:28:32 [Central Display] 
+23:28:32 [Central Display] Cabin Temperature   : ---
+23:28:32 [Central Display] Target Temperature  : ---
+23:28:32 [Central Display] ==================================================
+23:28:33 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 50 km/h
+23:28:35 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 60 km/h
+23:28:37 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 70 km/h
+23:28:37 [Central Display] ClimateService      : AVAILABLE   (VehicleSpeedService : AVAILABLE)
+23:28:37 [Central Display] GetCabinTemperature() response -> 24.0 degC (240)
+23:28:37 [Central Display] ---- Task 20: SetTargetTemperature validation tests ----
+23:28:37 [Central Display] SetTargetTemperature(22.0 degC, encoded 220) [Test 20.1 normal valid] -> ACCEPTED
+23:28:37 [Central Display]      expected ACCEPTED            -> PASS
+23:28:37 [Central Display] SetTargetTemperature(16.0 degC, encoded 160) [Test 20.2 lower boundary] -> ACCEPTED
+23:28:37 [Central Display]      expected ACCEPTED            -> PASS
+23:28:38 [Central Display] SetTargetTemperature(30.0 degC, encoded 300) [Test 20.3 upper boundary] -> ACCEPTED
+23:28:38 [Central Display]      expected ACCEPTED            -> PASS
+23:28:38 [Central Display] SetTargetTemperature(10.0 degC, encoded 100) [Test 20.4 invalid low] -> INVALID_TEMPERATURE (target stays 30.0 degC)
+23:28:38 [Central Display]      expected INVALID_TEMPERATURE -> PASS
+23:28:39 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 80 km/h
+23:28:39 [Central Display] SetTargetTemperature(35.0 degC, encoded 350) [Test 20.5 invalid high] -> INVALID_TEMPERATURE (target stays 30.0 degC)
+23:28:39 [Central Display]      expected INVALID_TEMPERATURE -> PASS
+23:28:39 [Central Display] ---- Validation tests: 5/5 PASS ----
+23:28:39 [Central Display] SetTargetTemperature(22.0 degC, encoded 220) [driver preference] -> ACCEPTED
+23:28:39 [Central Display] ==================================================
+23:28:39 [Central Display] CENTRAL VEHICLE DISPLAY
+23:28:39 [Central Display] ==================================================
+23:28:39 [Central Display] VehicleSpeedService : AVAILABLE
+23:28:39 [Central Display] ClimateService      : AVAILABLE
+23:28:39 [Central Display] 
+23:28:39 [Central Display] Vehicle Speed       : 80 km/h
+23:28:39 [Central Display] Vehicle State       : MOVING
+23:28:39 [Central Display] 
+23:28:39 [Central Display] Cabin Temperature   : 24.0 degree Celsius
+23:28:39 [Central Display] Target Temperature  : 22.0 degree Celsius
+23:28:39 [Central Display] ==================================================
+23:28:40 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 24.5 degree Celsius
+23:28:41 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 90 km/h
+23:28:41 [Central Display] [0x1234/0x8002 OverspeedWarning] !!! OVERSPEED WARNING !!! Vehicle Speed : 90 km/h
+23:28:43 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.0 degree Celsius
+23:28:43 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 100 km/h
+23:28:43 [Central Display] [0x1234/0x8002 OverspeedWarning] !!! OVERSPEED WARNING !!! Vehicle Speed : 100 km/h
+23:28:45 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 90 km/h
+23:28:45 [Central Display] [0x1234/0x8002 OverspeedWarning] !!! OVERSPEED WARNING !!! Vehicle Speed : 90 km/h
+23:28:46 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.5 degree Celsius
+23:28:47 [Central Display] GetSpeed() response -> 90 km/h
+23:28:47 [Central Display] GetVehicleState() response -> MOVING
+23:28:47 [Central Display] GetCabinTemperature() response -> 25.5 degC (255)
+23:28:47 [Central Display] ==================================================
+23:28:47 [Central Display] CENTRAL VEHICLE DISPLAY
+23:28:47 [Central Display] ==================================================
+23:28:47 [Central Display] VehicleSpeedService : AVAILABLE
+23:28:47 [Central Display] ClimateService      : AVAILABLE
+23:28:47 [Central Display] 
+23:28:47 [Central Display] Vehicle Speed       : 90 km/h
+23:28:47 [Central Display] Vehicle State       : MOVING
+23:28:47 [Central Display] 
+23:28:47 [Central Display] Cabin Temperature   : 25.5 degree Celsius
+23:28:47 [Central Display] Target Temperature  : 22.0 degree Celsius
+23:28:47 [Central Display] ==================================================
+23:28:47 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 80 km/h
+23:28:49 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 26.0 degree Celsius
+23:28:49 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 70 km/h
+23:28:51 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 50 km/h
+23:28:52 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.5 degree Celsius
+23:28:53 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 30 km/h
+23:28:55 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.0 degree Celsius
+23:28:55 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 10 km/h
+23:28:57 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 0 km/h
+23:28:57 [Central Display] GetVehicleState() response -> STOPPED
+23:28:58 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 24.5 degree Celsius
+23:29:01 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 24.0 degree Celsius
+23:29:02 [Central Display] GetSpeed() response -> 0 km/h
+23:29:02 [Central Display] GetVehicleState() response -> STOPPED
+23:29:02 [Central Display] GetCabinTemperature() response -> 24.0 degC (240)
+23:29:02 [Central Display] ==================================================
+23:29:02 [Central Display] CENTRAL VEHICLE DISPLAY
+23:29:02 [Central Display] ==================================================
+23:29:02 [Central Display] VehicleSpeedService : AVAILABLE
+23:29:02 [Central Display] ClimateService      : AVAILABLE
+23:29:02 [Central Display] 
+23:29:02 [Central Display] Vehicle Speed       : 0 km/h
+23:29:02 [Central Display] Vehicle State       : STOPPED
+23:29:02 [Central Display] 
+23:29:02 [Central Display] Cabin Temperature   : 24.0 degree Celsius
+23:29:02 [Central Display] Target Temperature  : 22.0 degree Celsius
+23:29:02 [Central Display] ==================================================
+23:29:04 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 24.5 degree Celsius
+23:29:05 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 20 km/h
+23:29:05 [Central Display] GetVehicleState() response -> MOVING
+23:29:07 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.0 degree Celsius
+23:29:07 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 40 km/h
+23:29:09 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 50 km/h
+23:29:10 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.5 degree Celsius
+23:29:11 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 60 km/h
+23:29:13 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 70 km/h
+23:29:14 [Central Display] ClimateService      : NOT AVAILABLE   (VehicleSpeedService : AVAILABLE)
+23:29:14 [Central Display] ==================================================
+23:29:14 [Central Display] CENTRAL VEHICLE DISPLAY
+23:29:14 [Central Display] ==================================================
+23:29:14 [Central Display] VehicleSpeedService : AVAILABLE
+23:29:14 [Central Display] ClimateService      : NOT AVAILABLE
+23:29:14 [Central Display] 
+23:29:14 [Central Display] Vehicle Speed       : 70 km/h
+23:29:14 [Central Display] Vehicle State       : MOVING
+23:29:14 [Central Display] 
+23:29:14 [Central Display] Cabin Temperature   : ---
+23:29:14 [Central Display] Target Temperature  : ---
+23:29:14 [Central Display] ==================================================
+23:29:15 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 80 km/h
+23:29:17 [Central Display] GetSpeed() response -> 80 km/h
+23:29:17 [Central Display] GetVehicleState() response -> MOVING
+23:29:17 [Central Display] ==================================================
+23:29:17 [Central Display] CENTRAL VEHICLE DISPLAY
+23:29:17 [Central Display] ==================================================
+23:29:17 [Central Display] VehicleSpeedService : AVAILABLE
+23:29:17 [Central Display] ClimateService      : NOT AVAILABLE
+23:29:17 [Central Display] 
+23:29:17 [Central Display] Vehicle Speed       : 80 km/h
+23:29:17 [Central Display] Vehicle State       : MOVING
+23:29:17 [Central Display] 
+23:29:17 [Central Display] Cabin Temperature   : ---
+23:29:17 [Central Display] Target Temperature  : ---
+23:29:17 [Central Display] ==================================================
+23:29:17 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 90 km/h
+23:29:17 [Central Display] [0x1234/0x8002 OverspeedWarning] !!! OVERSPEED WARNING !!! Vehicle Speed : 90 km/h
+23:29:19 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 100 km/h
+23:29:19 [Central Display] [0x1234/0x8002 OverspeedWarning] !!! OVERSPEED WARNING !!! Vehicle Speed : 100 km/h
+23:29:21 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 90 km/h
+23:29:21 [Central Display] [0x1234/0x8002 OverspeedWarning] !!! OVERSPEED WARNING !!! Vehicle Speed : 90 km/h
+23:29:23 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 80 km/h
+23:29:25 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 70 km/h
+23:29:27 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 50 km/h
+23:29:29 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 30 km/h
+23:29:29 [Central Display] ClimateService      : AVAILABLE   (VehicleSpeedService : AVAILABLE)
+23:29:29 [Central Display] GetCabinTemperature() response -> 24.0 degC (240)
+23:29:29 [Central Display] SetTargetTemperature(22.0 degC, encoded 220) [driver preference] -> ACCEPTED
+23:29:29 [Central Display] ==================================================
+23:29:29 [Central Display] CENTRAL VEHICLE DISPLAY
+23:29:29 [Central Display] ==================================================
+23:29:29 [Central Display] VehicleSpeedService : AVAILABLE
+23:29:29 [Central Display] ClimateService      : AVAILABLE
+23:29:29 [Central Display] 
+23:29:29 [Central Display] Vehicle Speed       : 30 km/h
+23:29:29 [Central Display] Vehicle State       : MOVING
+23:29:29 [Central Display] 
+23:29:29 [Central Display] Cabin Temperature   : 24.0 degree Celsius
+23:29:29 [Central Display] Target Temperature  : 22.0 degree Celsius
+23:29:29 [Central Display] ==================================================
+23:29:31 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 10 km/h
+23:29:31 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 24.5 degree Celsius
+23:29:32 [Central Display] GetSpeed() response -> 10 km/h
+23:29:32 [Central Display] GetVehicleState() response -> MOVING
+23:29:32 [Central Display] GetCabinTemperature() response -> 24.5 degC (245)
+23:29:32 [Central Display] ==================================================
+23:29:32 [Central Display] CENTRAL VEHICLE DISPLAY
+23:29:32 [Central Display] ==================================================
+23:29:32 [Central Display] VehicleSpeedService : AVAILABLE
+23:29:32 [Central Display] ClimateService      : AVAILABLE
+23:29:32 [Central Display] 
+23:29:32 [Central Display] Vehicle Speed       : 10 km/h
+23:29:32 [Central Display] Vehicle State       : MOVING
+23:29:32 [Central Display] 
+23:29:32 [Central Display] Cabin Temperature   : 24.5 degree Celsius
+23:29:32 [Central Display] Target Temperature  : 22.0 degree Celsius
+23:29:32 [Central Display] ==================================================
+23:29:33 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 0 km/h
+23:29:33 [Central Display] GetVehicleState() response -> STOPPED
+23:29:34 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.0 degree Celsius
+23:29:37 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.5 degree Celsius
+23:29:40 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 26.0 degree Celsius
+23:29:41 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 20 km/h
+23:29:41 [Central Display] GetVehicleState() response -> MOVING
+23:29:43 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 40 km/h
+23:29:43 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.5 degree Celsius
+23:29:45 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 50 km/h
+23:29:46 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.0 degree Celsius
+23:29:47 [Central Display] GetSpeed() response -> 50 km/h
+23:29:47 [Central Display] GetVehicleState() response -> MOVING
+23:29:47 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 60 km/h
+23:29:47 [Central Display] GetCabinTemperature() response -> 25.0 degC (250)
+23:29:47 [Central Display] ==================================================
+23:29:47 [Central Display] CENTRAL VEHICLE DISPLAY
+23:29:47 [Central Display] ==================================================
+23:29:47 [Central Display] VehicleSpeedService : AVAILABLE
+23:29:47 [Central Display] ClimateService      : AVAILABLE
+23:29:47 [Central Display] 
+23:29:47 [Central Display] Vehicle Speed       : 60 km/h
+23:29:47 [Central Display] Vehicle State       : MOVING
+23:29:47 [Central Display] 
+23:29:47 [Central Display] Cabin Temperature   : 25.0 degree Celsius
+23:29:47 [Central Display] Target Temperature  : 22.0 degree Celsius
+23:29:47 [Central Display] ==================================================
+23:29:49 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 24.5 degree Celsius
+23:29:52 [Central Display] VehicleSpeedService : NOT AVAILABLE   (ClimateService : AVAILABLE)
+23:29:52 [Central Display] ==================================================
+23:29:52 [Central Display] CENTRAL VEHICLE DISPLAY
+23:29:52 [Central Display] ==================================================
+23:29:52 [Central Display] VehicleSpeedService : NOT AVAILABLE
+23:29:52 [Central Display] ClimateService      : AVAILABLE
+23:29:52 [Central Display] 
+23:29:52 [Central Display] Vehicle Speed       : ---
+23:29:52 [Central Display] Vehicle State       : ---
+23:29:52 [Central Display] 
+23:29:52 [Central Display] Cabin Temperature   : 24.5 degree Celsius
+23:29:52 [Central Display] Target Temperature  : 22.0 degree Celsius
+23:29:52 [Central Display] ==================================================
+23:29:52 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 24.0 degree Celsius
+23:29:55 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 24.5 degree Celsius
+23:29:58 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.0 degree Celsius
+23:30:01 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.5 degree Celsius
+23:30:02 [Central Display] GetCabinTemperature() response -> 25.5 degC (255)
+23:30:02 [Central Display] ==================================================
+23:30:02 [Central Display] CENTRAL VEHICLE DISPLAY
+23:30:02 [Central Display] ==================================================
+23:30:02 [Central Display] VehicleSpeedService : NOT AVAILABLE
+23:30:02 [Central Display] ClimateService      : AVAILABLE
+23:30:02 [Central Display] 
+23:30:02 [Central Display] Vehicle Speed       : ---
+23:30:02 [Central Display] Vehicle State       : ---
+23:30:02 [Central Display] 
+23:30:02 [Central Display] Cabin Temperature   : 25.5 degree Celsius
+23:30:02 [Central Display] Target Temperature  : 22.0 degree Celsius
+23:30:02 [Central Display] ==================================================
+23:30:04 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 26.0 degree Celsius
+23:30:07 [Central Display] VehicleSpeedService : AVAILABLE   (ClimateService : AVAILABLE)
+23:30:07 [Central Display] GetSpeed() response -> 0 km/h
+23:30:07 [Central Display] GetVehicleState() response -> STOPPED
+23:30:07 [Central Display] ==================================================
+23:30:07 [Central Display] CENTRAL VEHICLE DISPLAY
+23:30:07 [Central Display] ==================================================
+23:30:07 [Central Display] VehicleSpeedService : AVAILABLE
+23:30:07 [Central Display] ClimateService      : AVAILABLE
+23:30:07 [Central Display] 
+23:30:07 [Central Display] Vehicle Speed       : 0 km/h
+23:30:07 [Central Display] Vehicle State       : STOPPED
+23:30:07 [Central Display] 
+23:30:07 [Central Display] Cabin Temperature   : 26.0 degree Celsius
+23:30:07 [Central Display] Target Temperature  : 22.0 degree Celsius
+23:30:07 [Central Display] ==================================================
+23:30:07 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.5 degree Celsius
+23:30:10 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.0 degree Celsius
+23:30:11 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 20 km/h
+23:30:11 [Central Display] GetVehicleState() response -> MOVING
+23:30:13 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 40 km/h
+23:30:13 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 24.5 degree Celsius
+23:30:15 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 50 km/h
+23:30:16 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 24.0 degree Celsius
+23:30:17 [Central Display] GetSpeed() response -> 50 km/h
+23:30:17 [Central Display] GetVehicleState() response -> MOVING
+23:30:17 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 60 km/h
+23:30:17 [Central Display] GetCabinTemperature() response -> 24.0 degC (240)
+23:30:17 [Central Display] ==================================================
+23:30:17 [Central Display] CENTRAL VEHICLE DISPLAY
+23:30:17 [Central Display] ==================================================
+23:30:17 [Central Display] VehicleSpeedService : AVAILABLE
+23:30:17 [Central Display] ClimateService      : AVAILABLE
+23:30:17 [Central Display] 
+23:30:17 [Central Display] Vehicle Speed       : 60 km/h
+23:30:17 [Central Display] Vehicle State       : MOVING
+23:30:17 [Central Display] 
+23:30:17 [Central Display] Cabin Temperature   : 24.0 degree Celsius
+23:30:17 [Central Display] Target Temperature  : 22.0 degree Celsius
+23:30:17 [Central Display] ==================================================
+23:30:19 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 70 km/h
+23:30:19 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 24.5 degree Celsius
+23:30:21 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 80 km/h
+23:30:22 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.0 degree Celsius
+23:30:23 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 90 km/h
+23:30:23 [Central Display] [0x1234/0x8002 OverspeedWarning] !!! OVERSPEED WARNING !!! Vehicle Speed : 90 km/h
+23:30:25 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 100 km/h
+23:30:25 [Central Display] [0x1234/0x8002 OverspeedWarning] !!! OVERSPEED WARNING !!! Vehicle Speed : 100 km/h
+23:30:25 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.5 degree Celsius
+23:30:27 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 90 km/h
+23:30:27 [Central Display] [0x1234/0x8002 OverspeedWarning] !!! OVERSPEED WARNING !!! Vehicle Speed : 90 km/h
+23:30:28 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 26.0 degree Celsius
+23:30:29 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 80 km/h
+23:30:31 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 70 km/h
+23:30:31 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.5 degree Celsius
+23:30:32 [Central Display] GetSpeed() response -> 70 km/h
+23:30:32 [Central Display] GetVehicleState() response -> MOVING
+23:30:32 [Central Display] GetCabinTemperature() response -> 25.5 degC (255)
+23:30:32 [Central Display] ==================================================
+23:30:32 [Central Display] CENTRAL VEHICLE DISPLAY
+23:30:32 [Central Display] ==================================================
+23:30:32 [Central Display] VehicleSpeedService : AVAILABLE
+23:30:32 [Central Display] ClimateService      : AVAILABLE
+23:30:32 [Central Display] 
+23:30:32 [Central Display] Vehicle Speed       : 70 km/h
+23:30:32 [Central Display] Vehicle State       : MOVING
+23:30:32 [Central Display] 
+23:30:32 [Central Display] Cabin Temperature   : 25.5 degree Celsius
+23:30:32 [Central Display] Target Temperature  : 22.0 degree Celsius
+23:30:32 [Central Display] ==================================================
+23:30:33 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 50 km/h
+23:30:34 [Central Display] [0x2234/0x8001 CabinTemperatureChanged] Cabin Temperature Updated : 25.0 degree Celsius
+23:30:35 [Central Display] [0x1234/0x8001 SpeedChanged]     Vehicle Speed Updated : 30 km/h
+23:30:36 [Central Display] Stopped
