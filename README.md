@@ -4,8 +4,8 @@ Virtual vehicle service network in **Python + someipy**: four virtual ECUs commu
 
 | | |
 |---|---|
-| **Student** | {{STUDENT_NAME}} |
-| **Roll No. / Course** | {{ROLL_NO}} |
+| **Student** | Atharva Bobade |
+| **Roll No. / Course** | 23310014 |
 | **Report** | [`docs/Assignment2_Report.pdf`](docs/Assignment2_Report.pdf) |
 | **Main capture** | [`captures/assignment2-multi-ecu.pcapng`](captures/assignment2-multi-ecu.pcapng) |
 
